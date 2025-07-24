@@ -234,6 +234,10 @@
       <h2 data-i18n="card-ua">Gebrauchsanleitung</h2>
       <a href="#" class="btn" data-i18n="btn-open">Öffnen</a>
     </div>
+    <div class="card" data-card-key="card-quickstart">
+      <h2 data-i18n="card-quickstart">Schnellanleitung</h2>
+      <a href="#" class="btn" data-i18n="btn-open">Öffnen</a>
+    </div>
     <div class="card" data-card-key="card-referenztabelle">
       <h2 data-i18n="card-referenztabelle">Referenztabelle</h2>
       <a href="#" class="btn" data-i18n="btn-open">Öffnen</a>
@@ -308,6 +312,7 @@
         'card-sdb': 'Sicherheitsdatenblatt',
         'card-tm': 'Technisches Merkblatt',
         'card-ua': 'Handbuch',
+	'card-quickstart': 'Schnellanleitung',
 	'card-referenztabelle': 'Referenztabelle',     
         'card-ra': 'Risikoanalyse',
         'card-review-title': 'Eine ehrliche Meinung von dir – tausend Dank von uns!',
@@ -328,6 +333,7 @@
         'card-sdb': 'Safety Data Sheet',
         'card-tm': 'Technical Data Sheet',
         'card-ua': 'User Manual',
+	'card-quickstart': 'Quickstart guide',
 	'card-referenztabelle': 'Reference table', 
         'card-ra': 'Risk Analysis',
         'card-review-title': 'Your honest review – our heartfelt thanks!',
@@ -348,6 +354,7 @@
         'card-sdb': 'Fiche de sécurité',
         'card-tm': 'Fiche technique',
         'card-ua': 'Manuel d\'utilisation',
+	'card-quickstart': 'Guide de démarrage rapide',
 	'card-referenztabelle': 'Tableau de référence', 
         'card-ra': 'Analyse des risques',
         'card-review-title': 'Votre avis sincère – nos remerciements chaleureux !',
@@ -368,6 +375,7 @@
         'card-sdb': 'Hoja de seguridad',
         'card-tm': 'Hoja técnica',
         'card-ua': 'Manual de uso',
+	'card-quickstart': 'Guía de inicio rápido',
 	'card-referenztabelle': 'Tabla de referencia',
         'card-ra': 'Análisis de riesgos',
         'card-review-title': '¡Tu opinión honesta – nuestro más sincero agradecimiento!',
@@ -384,36 +392,40 @@
 
     const docPaths = {
       de: {
-        enabledCards: ['card-ua', 'card-referenztabelle', 'card-ra', 'card-review-title'],
+        enabledCards: ['card-ua', 'card-quickstart', 'card-referenztabelle', 'card-ra', 'card-review-title'],
         'card-etikett': 'docs/de/etikett.pdf',
         'card-sdb':    'docs/de/sicherheitsdatenblatt.pdf',
         'card-tm':     'docs/de/technisches-merkblatt.pdf',
         'card-ua':     '03-07-00050_Handbuch_DE.pdf',
-	'card-referenztabelle':		'03-07-00050_Referenztabelle_DE.jpg
+	'card-quickstart':		'03-07-00050_Kurzanleitung_DE.pdf'
+	'card-referenztabelle':		'03-07-00050_Referenztabelle_DE.jpg'
         'card-ra':     '03-07-00050_Risikoanalyse_DE.pdf'
       },
       en: {
-	      enabledCards: ['card-etikett', 'card-ua', 'card-review-title'],
+	enabledCards: ['card-ua', 'card-quickstart', 'card-review-title'],
         'card-etikett': 'docs/en/label.pdf',
         'card-sdb':    'docs/en/safety-data-sheet.pdf',
         'card-tm':     'docs/en/technical-data-sheet.pdf',
         'card-ua':     '03-07-00050_Handbuch_EN.pdf',
+	'card-quickstart':		'03-07-00050_Kurzanleitung_EN.pdf'
         'card-ra':     'docs/en/risk-analysis.pdf'
       },
       fr: {
-	      enabledCards: ['card-ua', 'card-review-title'],
+	enabledCards: ['card-ua', 'card-quickstart', 'card-review-title'],
         'card-etikett': 'docs/fr/etiquette.pdf',
         'card-sdb':    'docs/fr/fiche-securite.pdf',
         'card-tm':     'docs/fr/fiche-technique.pdf',
         'card-ua':     '03-07-00050_Handbuch_FR.pdf',
+	'card-quickstart':		'03-07-00050_Kurzanleitung_FR.pdf'
         'card-ra':     'docs/fr/analyse-risques.pdf'
       },
       es: {
-	      enabledCards: ['card-ua', 'card-review-title'],
+	enabledCards: ['card-ua', 'card-quickstart', 'card-review-title'],
         'card-etikett': 'docs/es/etiqueta.pdf',
         'card-sdb':    'docs/es/hoja-seguridad.pdf',
         'card-tm':     'docs/es/hoja-tecnica.pdf',
         'card-ua':     '03-07-00050_Handbuch_ES.pdf',
+	'card-quickstart':		'03-07-00050_Kurzanleitung_ES.pdf'
         'card-ra':     'docs/es/analisis-riesgos.pdf'
       }
     };
